@@ -9,7 +9,7 @@ function NavbarComponents() {
       <div className=" flex justify-between items-center sticky px-10 py-2 bg-white top-0 z-10">
         <div>
           <Link href="/">
-            <Image src={logo} className=" w-[50px] h-[50px]" />
+            <Image src={logo} className=" w-[50px] h-[50px]" alt="" />
           </Link>
         </div>
         <div className=" flex gap-3">

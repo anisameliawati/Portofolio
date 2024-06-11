@@ -125,7 +125,7 @@ export function CardPro({
     <>
       <Card className="mt-6 w-96">
         <CardHeader color="white" className="relative h-56">
-          <Image src={image} />
+          <Image src={image} alt={project} />
         </CardHeader>
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -203,10 +203,10 @@ export function CardPro({
                 </IconButton>
               )}
             >
-              <Image src={image1} />
-              <Image src={image2} />
-              <Image src={image3} />
-              <Image src={image4} />
+              <Image src={image1} alt="" />
+              <Image src={image2} alt="" />
+              <Image src={image3} alt="" />
+              <Image src={image4} alt="" />
             </Carousel>
             <div className=" w-[50%] text-justify p-3">{desc}</div>
           </DialogBody>

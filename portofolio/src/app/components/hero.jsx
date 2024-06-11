@@ -12,7 +12,7 @@ function HeroComponents() {
     <>
       <div className="flex flex-row justify-center gap-20 items-center min-h-[90vh]">
         <div>
-          <Image src={logo} className=" w-[400px] h-auto" />
+          <Image src={logo} className=" w-[400px] h-auto" alt="" />
         </div>
         <div className="flex flex-col gap-8">
           <div className=" font-semibold">
