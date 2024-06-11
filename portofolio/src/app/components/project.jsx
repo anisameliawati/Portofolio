@@ -217,7 +217,7 @@ export function CardPro({
               </Button>
             </Link>
             <Button className="bg-[#BC7FCD]" onClick={handleOpen}>
-              <span>Cancel</span>
+              <span>Close</span>
             </Button>
           </DialogFooter>
         </Dialog>
