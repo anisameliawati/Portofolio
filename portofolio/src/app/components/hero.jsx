@@ -16,7 +16,7 @@ function HeroComponents() {
         </div>
         <div className="flex flex-col gap-8">
           <div className=" font-semibold">
-            <div className=" text-[50px]">Hi, I'm Anisa Meliawati</div>
+            <div className=" text-[50px]">Hi, I am Anisa Meliawati</div>
             <div className=" text-[50px]">Full Stack Web Developer</div>
           </div>
 
