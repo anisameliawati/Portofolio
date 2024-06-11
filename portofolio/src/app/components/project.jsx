@@ -125,7 +125,7 @@ export function CardPro({
     <>
       <Card className="mt-6 w-96">
         <CardHeader color="white" className="relative h-56">
-          <Image src={image} alt={project} />
+          <Image src={image} alt="" />
         </CardHeader>
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
