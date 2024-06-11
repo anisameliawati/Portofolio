@@ -69,7 +69,7 @@ function AboutComponents() {
           <TabsBody>
             {data.map(({ value, image }) => (
               <TabPanel key={value} value={value}>
-                <Image src={image} className=" w-[600px] h-auto" alt="" />
+                <Image src={image} className=" w-[600px] h-auto" alt={value} />
               </TabPanel>
             ))}
           </TabsBody>
