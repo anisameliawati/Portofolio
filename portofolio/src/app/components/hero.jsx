@@ -8,6 +8,12 @@ import { BsInstagram } from "react-icons/bs";
 import Link from "next/link";
 
 function HeroComponents() {
+  const gradientStyle = {
+    background: "linear-gradient(220.55deg, #6F00B3 0%, #DEB5FF 100%)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  };
+
   return (
     <>
       <div className="flex flex-row justify-center gap-20 items-center min-h-[90vh]">
@@ -16,12 +22,16 @@ function HeroComponents() {
         </div>
         <div className="flex flex-col gap-8">
           <div className=" font-semibold">
-            <div className=" text-[50px]">Hi, I am Anisa Meliawati</div>
-            <div className=" text-[50px]">Full Stack Web Developer</div>
+            <div className=" text-[50px]" style={gradientStyle}>
+              Hi, I am Anisa Meliawati
+            </div>
+            <div className=" text-[50px]" style={gradientStyle}>
+              Full Stack Web Developer
+            </div>
           </div>
 
-          <div className="flex text-[18px] items-center">
-            <MdLocationOn className=" text-red-600" />
+          <div className="flex text-[18px] items-center text-[#325B94]">
+            <MdLocationOn className=" text-red-300" />
             Jakarta, Indonesia
           </div>
           <div className="flex gap-6 text-[25px]">
