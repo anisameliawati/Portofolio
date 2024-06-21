@@ -16,21 +16,29 @@ function HeroComponents() {
 
   return (
     <>
-      <div className="flex flex-row justify-center gap-20 items-center min-h-[90vh]">
+      <div className="flex md:flex-row flex-col justify-center md:gap-20 gap-10 items-center md:min-h-[90vh] min-h-[70vh] md:mb-0 mb-4">
         <div>
-          <Image src={logo} className=" w-[400px] h-auto" alt="logo" />
+          <Image
+            src={logo}
+            className=" md:w-[400px] w-[250px] h-auto"
+            alt="logo"
+          />
         </div>
-        <div className="flex flex-col gap-8">
-          <div className=" font-semibold">
-            <div className=" text-[50px]" style={gradientStyle}>
+        <div className="flex flex-col md:gap-8 gap-4 md:items-start items-center">
+          <div className=" ">
+            <div
+              className=" md:text-[50px] text-[30px] font-semibold md:text-start text-center"
+              style={gradientStyle}
+            >
               Hi, I am Anisa Meliawati
-            </div>
-            <div className=" text-[50px]" style={gradientStyle}>
+              <br />
+              {/* </div>
+            <div className=" md:text-[50px] text-[40px]" style={gradientStyle}> */}
               Full Stack Web Developer
             </div>
           </div>
 
-          <div className="flex text-[18px] items-center text-[#325B94]">
+          <div className="flex md:text-[18px] text-[15px] items-center text-[#325B94]">
             <MdLocationOn className=" text-red-300" />
             Jakarta, Indonesia
           </div>

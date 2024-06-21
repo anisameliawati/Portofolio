@@ -17,25 +17,25 @@ function SkillComponents() {
     <>
       <div
         id="skill"
-        className="flex flex-col justify-center items-center p-10 gap-10"
+        className="flex flex-col justify-center items-center md:p-10 p-5 md:gap-10 gap-5"
       >
         <div className="text-[40px] font-semibold py-5">Skill Set</div>
-        <div className="flex gap-10">
-          <BiLogoJavascript size={70} className=" text-[#F0DB4F]" />
-          <BiLogoTypescript size={70} className=" text-[#3178C6]" />
-          <FaNodeJs size={70} className=" text-[#3C873A]" />
-          <SiExpress size={70} className=" text-black" />
-          <SiMysql size={70} className=" text-blue-700" />
-          <SiPrisma size={60} className=" text-blue-gray-800" />
+        <div className="flex md:gap-10 gap-2 md:text-[70px] text-[40px]">
+          <BiLogoJavascript className=" text-[#F0DB4F] " />
+          <BiLogoTypescript className=" text-[#3178C6]" />
+          <FaNodeJs className=" text-[#3C873A] " />
+          <SiExpress className=" text-black" />
+          <SiMysql className=" text-blue-700 " />
+          <SiPrisma className=" text-blue-gray-800 md:text-[60px] text-[40px]" />
         </div>
-        <div className="flex gap-10">
-          <FaReact size={70} className=" text-blue-600" />
-          <RiTailwindCssFill size={70} className="text-[#37BCF8]" />
-          <SiChakraui size={70} className="text-[#5FC8C8]" />
-          <SiMui size={70} className="text-[#027FFE]" />
-          <FaCss3Alt size={70} className=" text-blue-700" />
-          <FaHtml5 size={70} className=" text-orange-700" />
-          <IoLogoGithub size={70} className="text-[#6e5494]" />
+        <div className="flex md:gap-10 gap-3 md:text-[70px] text-[40px]">
+          <FaReact className=" text-blue-600 " />
+          <RiTailwindCssFill className="text-[#37BCF8]" />
+          <SiChakraui className="text-[#5FC8C8]" />
+          <SiMui className="text-[#027FFE]" />
+          <FaCss3Alt className=" text-blue-700 " />
+          <FaHtml5 className=" text-orange-700" />
+          <IoLogoGithub className="text-[#6e5494]" />
         </div>
       </div>
     </>

@@ -96,8 +96,10 @@ function ProjectComponents() {
         className=" flex flex-col justify-center items-center bg-[#F7F5F4] min-h-screen  p-10"
         id="project"
       >
-        <div className=" text-[40px] font-semibold py-5">Features Projects</div>
-        <div className=" grid grid-cols-2  justify-center items-center  gap-10">
+        <div className=" md:text-[40px] text-[30px] font-semibold py-5">
+          Features Projects
+        </div>
+        <div className=" grid md:grid-cols-2 grid-cols-1  justify-center items-center gap-10">
           {data.map((project, index) => (
             <CardPro key={index} {...project} />
           ))}
@@ -123,7 +125,7 @@ export function CardPro({
   const handleOpen = () => setOpen(!open);
   return (
     <>
-      <Card className="mt-6 w-96">
+      <Card className="mt-6 md:w-96 w-72">
         <CardHeader color="white" className="relative h-56">
           <Image src={image} alt="" />
         </CardHeader>
@@ -146,12 +148,12 @@ export function CardPro({
             unmount: { scale: 0.9, y: -100 },
           }}
           size="xl"
-          className=""
+          className=" max-h-[80vh] overflow-auto"
         >
           <DialogHeader className="m-auto justify-center items-center">
             {project}
           </DialogHeader>
-          <DialogBody className=" flex flex-row gap-5 items-center">
+          <DialogBody className=" flex md:flex-row flex-col gap-5 items-center ">
             <Carousel
               className="rounded-xl h-[400px] w-[50%] object-contain"
               prevArrow={({ handlePrev }) => (
@@ -208,7 +210,7 @@ export function CardPro({
               <Image src={image3} alt="" />
               <Image src={image4} alt="" />
             </Carousel>
-            <div className=" w-[50%] text-justify p-3">{desc}</div>
+            <div className=" md:w-[50%] w-[80%] text-justify p-3">{desc}</div>
           </DialogBody>
           <DialogFooter className="flex justify-between">
             <Link href={href}>

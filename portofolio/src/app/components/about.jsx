@@ -42,7 +42,7 @@ function AboutComponents() {
   return (
     <>
       <div
-        className=" min-h-screen flex flex-col justify-center items-center p-10 bg-[#F7F5F4]"
+        className=" md:min-h-screen min-h-[70vh] flex flex-col justify-center items-center p-10 bg-[#F7F5F4]"
         id="about"
       >
         <div className=" text-[40px] font-semibold py-5">About Me</div>
