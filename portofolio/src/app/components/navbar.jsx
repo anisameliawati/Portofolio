@@ -56,7 +56,7 @@ function NavbarComponents() {
                   Project
                 </Link>
                 <Link
-                  href="https://drive.google.com/file/d/1Gq0wNhn6zP2tMpwKa-KEJ4jkjAF9t0Gv/view?usp=sharing"
+                  href="{google_docs}https://drive.google.com/file/d/1Gq0wNhn6zP2tMpwKa-KEJ4jkjAF9t0Gv/preview{/google_docs}"
                   target="_blank"
                 >
                   <button className=" rounded-lg bg-[#BC7FCD] text-white px-1">
