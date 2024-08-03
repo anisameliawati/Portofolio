@@ -43,13 +43,13 @@ function HeroComponents() {
             Jakarta, Indonesia
           </div>
           <div className="flex gap-6 text-[25px]">
-            <Link href="https://github.com/anisameliawati">
+            <Link href="https://github.com/anisameliawati" target="blank">
               <FaGithub color="#6e5494" />
             </Link>
-            <Link href="https://linkedin.com/in/anisa-meliawati">
+            <Link href="https://linkedin.com/in/anisa-meliawati" target="blank">
               <FaLinkedin color="#0077B5" />
             </Link>
-            <Link href="https://instagram.com/anisameliawatii">
+            <Link href="https://instagram.com/anisameliawatii" target="blank">
               <BsInstagram color=" #ee2a7b " />
             </Link>
           </div>
