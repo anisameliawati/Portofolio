@@ -27,14 +27,14 @@ function NavbarComponents() {
             <Link href="#project" className="text-[#BC7FCD]">
               Project
             </Link>
-            <Link
+            <link
               href="https://drive.google.com/file/d/1pY2EafKizZTj5A1GjTdZuD6E8Yt9hv9G/view?usp=sharing"
               target="blank"
             >
               <button className=" rounded-lg bg-[#BC7FCD] text-white px-1">
                 Download CV
               </button>
-            </Link>
+            </link>
           </div>
         </div>
 
