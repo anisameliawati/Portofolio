@@ -28,7 +28,7 @@ function NavbarComponents() {
               Project
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1rcgtYFWTy3Zbm6X4rO157AXpy3t2p46j/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pY2EafKizZTj5A1GjTdZuD6E8Yt9hv9G/view?usp=sharing"
               target="blank"
             >
               <button className=" rounded-lg bg-[#BC7FCD] text-white px-1">
