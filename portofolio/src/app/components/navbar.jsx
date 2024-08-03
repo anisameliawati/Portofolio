@@ -7,6 +7,9 @@ import { IoMenu } from "react-icons/io5";
 
 function NavbarComponents() {
   const [open, setOpen] = useState(false);
+
+  const cv =
+    "https://drive.google.com/file/d/1pY2EafKizZTj5A1GjTdZuD6E8Yt9hv9G/view?usp=sharing";
   return (
     <>
       <div className=" flex justify-between items-center sticky px-10 py-2 bg-white top-0 z-10">
@@ -27,10 +30,7 @@ function NavbarComponents() {
             <Link href="#project" className="text-[#BC7FCD]">
               Project
             </Link>
-            <Link
-              href="https://drive.google.com/file/d/1pY2EafKizZTj5A1GjTdZuD6E8Yt9hv9G/view?usp=sharing"
-              target="blank"
-            >
+            <Link href={cv} target="blank">
               <button className=" rounded-lg bg-[#BC7FCD] text-white px-1">
                 Download CV
               </button>
@@ -55,10 +55,7 @@ function NavbarComponents() {
                 <Link href="#project" className="text-[#BC7FCD]">
                   Project
                 </Link>
-                <Link
-                  href="https://drive.google.com/file/d/1pY2EafKizZTj5A1GjTdZuD6E8Yt9hv9G/view?usp=sharing"
-                  target="blank"
-                >
+                <Link href={cv} target="blank">
                   <button className=" rounded-lg bg-[#BC7FCD] text-white px-1">
                     Download CV
                   </button>
